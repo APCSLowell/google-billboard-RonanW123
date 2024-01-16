@@ -15,7 +15,7 @@ public class GoogleBillboard {
 			for(int i = 2; i <= Math.sqrt(tenNumsD); i++)
  				if(tenNumsD%i == 0)
       					return false;
-  				if(num < 2)
+  				if(tenNumsD < 2)
     					return false;
 		}
   		return true;
