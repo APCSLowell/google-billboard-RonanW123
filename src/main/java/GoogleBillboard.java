@@ -9,13 +9,14 @@ public class GoogleBillboard {
 
 	//Finish this function
 	public boolean isPrime(){
-		for(int i = 0; i <= e.length(); i++)
+		for(int i = 0; i <= e.length(); i++){
 			String tenNumsS = e.substring(i, i+10);
 			double tenNumsD = Double.parseDouble(tenNumsS);
  			if(tenNumsD%i == 0)
       				return false;
   			if(num < 2)
     				return false;
+		}
   		return true;
 	}
 
