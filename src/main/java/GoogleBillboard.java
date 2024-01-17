@@ -10,7 +10,7 @@ public class GoogleBillboard {
 	//Finish this function
 	public boolean isPrime(){
 		for(int i = 0; i < e.length(); i++){
-			String tenNumsS = e.substring(i, i+10);
+			String tenNumsS = new e.substring(i, i+10);
 			double tenNumsD = Double.parseDouble(tenNumsS);
 			for(int i = 2; i <= Math.sqrt(tenNumsD); i++)
  				if(tenNumsD%i == 0)
