@@ -16,7 +16,7 @@ public class GoogleBillboard {
  				if(tenNumsD%x == 0)
       					return false;
   				if(tenNumsD < 2)
-    					return false;
+    					return false
 		}
   		return true;
 	}
